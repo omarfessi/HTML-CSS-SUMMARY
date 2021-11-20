@@ -1,24 +1,57 @@
 body {
-    font-family: 'Mochiy Pop One', sans-serif;
-    background-color: rgb(207, 208, 219);
+  font-family: "Mochiy Pop One", sans-serif;
+  background-color: rgb(207, 208, 219);
 }
 
 header {
-    font-size: 42px;
-    text-align: center;
+  font-size: 42px;
+  text-align: center;
 }
 header h1 {
-    color: rgb(67, 17, 160);
+  color: rgb(67, 17, 160);
 }
 img {
-    width: 300px;
+  width: 300px;
 }
 
 main {
-    background-color: rgb(122, 74, 218);
-    padding: 32px;
-    margin: 32px auto;
-    width: 800px;
-    border-radius: 8px;
-    color: rgb(248, 241, 255);
+  background-color: rgb(122, 74, 218);
+  padding: 32px;
+  margin: 32px auto;
+  width: 800px;
+  border-radius: 8px;
+  color: rgb(248, 241, 255);
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 14px 0;
+  padding-left: 10px;
+  border-left: 5px solid transparent;
+}
+
+.highlighting-list-items {
+  color: rgb(255, 237, 177);
+  border-color: rgb(247, 209, 85);
+}
+.highlight {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main a {
+    background-color: rgb(247, 202, 57);
+    color: rgb(36, 3, 102);
+    text-decoration: none;
+    padding: 2px 6px;
+    border-radius: 4px;
+
+}
+a:hover,
+a:active {
+  background-color: rgb(233, 217, 167);
 }
