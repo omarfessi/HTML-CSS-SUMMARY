@@ -55,3 +55,18 @@ a:hover,
 a:active {
   background-color: rgb(233, 217, 167);
 }
+
+footer {
+    text-align: center;
+}
+footer a {
+    background-color: rgb(247, 209, 85);
+    text-decoration: none;
+    padding: 4px 6px;
+    border-radius: 4px;
+    color: rgb(36, 3, 102);
+}
+footer p {
+    color: rgb(131, 113, 149);
+    margin-top: 15px;
+  }
